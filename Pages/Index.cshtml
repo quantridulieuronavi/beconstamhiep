@@ -1,0 +1,286 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "||||||||||";
+}
+
+<button class="fab" id="fabBtn">☰</button>
+<div class="fab-menu" id="fabMenu">
+    <a href="#section-overview" class="fab-item" data-index="0"><span>TỔNG QUAN</span></a>
+    <a href="#section-location" class="fab-item" data-index="1"><span>VỊ TRÍ</span></a>
+    <a href="#section-amenities" class="fab-item" data-index="2"><span>TIỆN ÍCH</span></a>
+    <a href="#section-floorplan" class="fab-item" data-index="3"><span>MẶT BẰNG</span></a>
+    <a href="#section-showroom" class="fab-item" data-index="4"><span>NHÀ MẪU</span></a>
+    <a href="#section-pricing" class="fab-item" data-index="5"><span>BẢNG GIÁ</span></a>
+    <a href="#section-legal" class="fab-item" data-index="6"><span>PHÁP LÝ</span></a>
+    <a href="#section-news" class="fab-item" data-index="7"><span>TIN TỨC</span></a>
+</div>
+
+<div class="top-bar">
+    <div class="container">
+        <span>📍 Số 56A, Đường 518, Xa Lộ Hà Nội, KP5, P. Tân Hiệp, Biên Hòa, Đồng Nai</span>
+        <span>
+            <a href="tel:0898777898">📞 0898.777.898</a>
+            <a href="mailto:rongnamvietdn@gmail.com">✉️ rongnamvietdn@gmail.com</a>
+        </span>
+    </div>
+</div>
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            RỒNG NAM VIỆT
+            <small>BẤT ĐỘNG SẢN</small>
+        </div>
+        <button class="mobile-menu-toggle" id="mobileMenuBtn">☰</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#section-overview">TỔNG QUAN</a></li>
+            <li><a href="#section-location">VỊ TRÍ</a></li>
+            <li><a href="#section-amenities">TIỆN ÍCH</a></li>
+            <li><a href="#section-floorplan">MẶT BẰNG</a></li>
+            <li><a href="#section-showroom">NHÀ MẪU</a></li>
+            <li><a href="#section-pricing">BẢNG GIÁ</a></li>
+            <li><a href="#section-legal">PHÁP LÝ</a></li>
+            <li><a href="#section-news">TIN TỨC</a></li>
+        </ul>
+    </div>
+</header>
+<section class="hero" style="background-image: url('/img/BCONS-CENTRAL-PARK-1.png');">
+    <div class="container">
+        <div class="hero-content">
+            <h1>||||||</h1>
+            <p>|||||||||||||||||</p>
+            <a href="#section-overview" class="btn-primary">Khám phá dự án</a>
+        </div>
+    </div>
+</section>
+
+<!-- TỔNG QUAN -->
+<section id="section-overview" class="content-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>TỔNG QUAN</h2>
+        </div>
+        <div class="section-content">
+            <h3>||||||||||</h3>
+            <p>||||</p>
+            <p>||||</p>
+            <p>||||</p>
+        </div>
+    </div>
+</section>
+
+<!-- VỊ TRÍ -->
+<section id="section-location" class="content-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>VỊ TRÍ</h2>
+        </div>
+        <div class="section-content">
+            <h3>||||||||||</h3>
+            <p>||||</p>
+            <p>||||</p>
+            <div style="background: #e0e0e0; padding: 40px; text-align: center; border-radius: 12px; margin-top: 24px;">
+                🗺️ [Bản đồ]
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TIỆN ÍCH -->
+<section id="section-amenities" class="content-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>TIỆN ÍCH</h2>
+        </div>
+        <div class="section-content">
+            <h3>||||||||||||</h3>
+            <div class="amenities-grid">
+                <div class="amenity-item">
+                    <div class="amenity-icon">🏊</div>
+                    <h4>||||</h4>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🏋️</div>
+                    <h4>||||</h4>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🌳</div>
+                    <h4>||||</h4>
+                </div>
+                <div class="amenity-item">
+                    <div class="amenity-icon">🚗</div>
+                    <h4>||||</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MẶT BẰNG -->
+<section id="section-floorplan" class="content-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>MẶT BẰNG</h2>
+        </div>
+        <div class="section-content">
+            <h3>||||||||||||</h3>
+            <p>||||</p>
+            <div style="background: #e0e0e0; padding: 60px; text-align: center; border-radius: 12px; margin-top: 24px;">
+                📐 [Mặt bằng tổng thể]
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- NHÀ MẪU -->
+<section id="section-showroom" class="content-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>NHÀ MẪU</h2>
+        </div>
+        <div class="section-content">
+            <h3>||||||||||||</h3>
+            <p>||||</p>
+            <div class="project-grid" style="margin-top: 24px;">
+                <div class="project-card">
+                    <img src="/img/can-ho-bcons-central-park.png" alt="Nhà mẫu 1">
+                    <div class="card-body">
+                        <h3>||||||||||</h3>
+                        <div class="price">||||</div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/img/can-ho-bcons-central-park-2.png" alt="Nhà mẫu 2">
+                    <div class="card-body">
+                        <h3>||||||||||</h3>
+                        <div class="price">||||</div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/img/phoi-canh-bcons-central-park-bien-hoa-dong-nai.png" alt="Nhà mẫu 3">
+                    <div class="card-body">
+                        <h3>||||||||||</h3>
+                        <div class="price">||||</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- BẢNG GIÁ -->
+<section id="section-pricing" class="content-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>BẢNG GIÁ</h2>
+        </div>
+        <div class="section-content">
+            <h3>||||||||||||</h3>
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>Loại căn</th>
+                        <th>Diện tích</th>
+                        <th>Giá</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>||||</td>
+                        <td>||||</td>
+                        <td>||||</td>
+                    </tr>
+                    <tr>
+                        <td>||||</td>
+                        <td>||||</td>
+                        <td>||||</td>
+                    </tr>
+                    <tr>
+                        <td>||||</td>
+                        <td>||||</td>
+                        <td>||||</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section id="section-legal" class="content-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>PHÁP LÝ</h2>
+        </div>
+        <div class="section-content">
+            <h3>||||||||||||</h3>
+            <p>||||</p>
+            <ul class="legal-list">
+                <li>||||</li>
+                <li>||||</li>
+                <li>||||</li>
+                <li>||||</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- TIN TỨC -->
+<section id="section-news" class="content-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>TIN TỨC & SỰ KIỆN</h2>
+        </div>
+        <div class="news-grid">
+            <div class="news-item">
+                <img src="/img/lien-ket-vung-bcons-central-park.png" alt="Tin tức">
+                <div class="news-content">
+                    <h4>||||||||||</h4>
+                    <div class="date">||||||||||</div>
+                    <a href="#">||||||||||→</a>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="/img/can-ho-bcons-central-park-gan-me-tro-scaled.png" alt="Sự kiện">
+                <div class="news-content">
+                    <h4>||||||||||</h4>
+                    <div class="date">||||||||||</div>
+                    <a href="#">||||||||||→</a>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="/img/tien-ich-can-ho-bcons-central-park-scaled.png" alt="Thị trường">
+                <div class="news-content">
+                    <h4>||||||||||</h4>
+                    <div class="date">||||||||||</div>
+                    <a href="#">||||||||||→</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <h3>||||</h3>
+                <p>||||</p>
+                <p style="margin-top:12px;">MST: ||||</p>
+            </div>
+            <div>
+                <h3>Liên kết</h3>
+                <p><a href="#">||||</a></p>
+                <p><a href="#">||||</a></p>
+                <p><a href="#">||||</a></p>
+            </div>
+            <div class="contact-info">
+                <h3>Liên hệ</h3>
+                <p>📍 ||||</p>
+                <p>📞 ||||</p>
+                <p>✉️ ||||</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Rồng Nam Việt.
+        </div>
+    </div>
+</footer>
